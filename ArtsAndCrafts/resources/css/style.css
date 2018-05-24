@@ -1,0 +1,35 @@
+body{
+  font-family: Helvetica;
+}
+
+header#mainheading{
+  background-image: url('../images/pattern.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+header#mainheading h1{
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+article header.article-heading{
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+article#brushes header h2{
+  background-color: mediumspringgreen;
+}
+article#frames header h2{
+  background-color: lightcoral;
+}
+article#paint header h2{
+  background-color: skyblue;
+}
+
+article p span{
+  font-weight: bold;
+  color: blue;
+}
